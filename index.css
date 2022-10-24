@@ -1,0 +1,22 @@
+.hero{
+    max-height: 400px;
+    min-height: 35em;
+    width: 100%;
+    background-image: url(./images/clothe3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart-div{
+    min-width: 200px;
+    max-width: 400px;
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.cart-div.active {
+    display: block;
+}
+.cart-img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
